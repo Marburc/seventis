@@ -1,3 +1,18 @@
+/************************************** button style */
+.btn-primary {
+    background: #0F5070;
+    color: #ffffff;
+    border: none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: rgb(24, 117, 163);
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+/*************************************** main styles */
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -5,6 +20,7 @@ body {
 .navbar-brand img {
 width: 180px;
 }
+
 
 /******************************** Header */
 
@@ -117,6 +133,7 @@ content: "";
 
 #cards {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .app-card {
     text-align: center;
@@ -135,10 +152,12 @@ content: "";
     
     position: relative;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background: #115071
+    background: #115071;
+display: flex;
+justify-content: center;
   }
   #hexagon:before {
     content: "";
@@ -167,4 +186,37 @@ content: "";
       color: white;
       font-size: 2rem;
       margin-top: 13px;
+        
   }
+  /******************************************** jumbotron */
+  #dikl {
+      position: relative;
+      
+  }
+  #dikl p, h1, .btn, hr {
+    position: relative;
+    z-index: 200;
+    color: rgb(255, 255, 255);
+}
+  .jumbotron  {
+      background: url(../img/SevTaste_kl._Schlitzpng-1024x198.png);
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-size: cover;
+      color: white;
+      text-shadow: 2px 3px 0px rgba(38,20,20,0.3);
+  }
+  
+
+  .overlay
+{
+content: "";
+  display: block;
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+  
