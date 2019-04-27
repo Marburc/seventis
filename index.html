@@ -9,8 +9,11 @@
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway:400,700" rel="stylesheet">
@@ -21,7 +24,7 @@
 
     <!-- START HERE -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="/img/Logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -30,21 +33,21 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                <ul class="navbar-nav ml-auto smooth-scroll">
+                    <li class="nav-item active ">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Datenschutz ist kein Luxus</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#dikl">Datenschutz ist kein Luxus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Warum Seventis</a>
+                        <a class="nav-link" href="#warum-seventis">Warum Seventis</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Angebot</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Über uns</a>
+                        <a class="nav-link" href="#ueber-uns">Über uns</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Datenschutzerklärung</a>
@@ -57,7 +60,7 @@
     </nav>
     <header>
         <div class="bd-example">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -91,8 +94,8 @@
                                 <i class="fas fa-magic"></i>
                             </div>
                             <h5 class="card-title">Den Kopf frei</h5>
-                            <p class="card-text py-4">Datenschutz ist ein Muss - aber auch ein Mehrwert.
-                                Hier Sollte noch ein bisschen mehr Text stehen.
+                            <p class="card-text py-3">Datenschutz ist ein Muss - aber auch ein Mehrwert.
+                                Hier Sollte noch ein bisschen mehr Text kommen, damit dat janze schön aussieht.
                             </p>
                             <a href="#" class="btn btn-primary">Mehr erfahren</a>
                         </div>
@@ -150,11 +153,11 @@
         <div class="overlay"></div>
     </section>
     <section id="warum-seventis">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center py-5">
-                    <h2 class="py-3"> <strong>Warum Seventis?</strong></h2>
-                    <h3>Um den Kopf frei zu haben!</h3>
+        <div class="container text-center">
+            <h2 class="py-3"> <strong>Warum Seventis?</strong></h2>
+            <h3>Um den Kopf frei zu haben!</h3>
+            <div class="row pb-4">
+                <div class="col text-center pt-5 warum-seventis-cards">
                     <h5 class="py-2">DATENSCHUTZ IST EIN MUSS — ABER AUCH EIN MEHRWERT</h5>
                     <p>Vor dem Hintergrund der voranschreitenden Digitalisierung kommt dem Datenschutz ein immer höherer
                         Stellenwert zu. Das Interesse an personenbezogenen Daten wächst stetig. Kriminelle Absichten
@@ -162,18 +165,29 @@
                         nimmt einen immer entscheidenderen Einfluss auf wirtschaftliche und sogar gesellschaftliche
                         Prozesse. Das alles begründet ein besonderes Risiko für die Rechte und Freiheiten des Einzelnen
                         und der Gesellschaft. </p>
-                    <h5 class="py-2">WIRKUNGSVOLLE GESETZE</h5>
-                    <p>Dieser besonderen Bedeutung des Datenschutzes hat der europäische Gesetzgeber mittlerweile durch
+                </div>
+                <div class="col text-center py-5 warum-seventis-cards">
+                    <h5 class="py-2 gesetze">WIRKUNGSVOLLE GESETZE</h5>
+                    <p>Dieser besonderen Bedeutung des Datenschutzes hat der europäische Gesetzgeber mittlerweile
+                        durch
                         die Datenschutzgrundverordnung (DS-GVO) Geltung verschafft. Zeitgleich trat das neue
                         Bundesdatenschutzgesetz (BDSG) in Kraft. Die an Sie gestellten Ansprüche im Hinblick auf die
-                        Absicherung der Verarbeitung personenbezogener Daten haben sich hiermit signifikant erhöht. </p>
+                        Absicherung der Verarbeitung personenbezogener Daten haben sich hiermit signifikant erhöht.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row pb-5">
+                <div class="col text-center ">
                     <h5 class="py-2">RISIKEN MINIMIEREN</h5>
-                    <p>VDen gesetzlichen Anforderungen nachzukommen, ist aber nicht nur im Hinblick auf den drohenden
+                    <p>Den gesetzlichen Anforderungen nachzukommen, ist aber nicht nur im Hinblick auf den drohenden
                         Schaden für Betroffene und die hohe Strafbewährung eines möglichen Verstoßes geboten. Vielmehr
                         schafft ein hohes Level an Datenschutz von vornherein Vertrauen bei Kunden und Partnern. Die
                         Einhaltung des Datenschutzes ist damit eine sinnvolle Investition in die Zukunft Ihres
-                        Unternehmens. </p>
-                    <h5 class="py-2">DIE RELEVANTESTEN PRINZIPIEN</h5>
+                        Unternehmens.</p>
+                </div>
+                <div class="col text-center ">
+                    <h5 class="py-2 ">DIE RELEVANTESTEN PRINZIPIEN</h5>
                     <p>Die relevantesten Prinzipien des neuen Datenschutzrechts sind die konsequente Zweckbindung der
                         Datenverarbeitung und deren Rückführung auf einen dezidierten legitimen Zweck, die
                         Datenmininimierung sowie Transparenz und Rechenschaft. Um dem nachzukommen, müssen Sie die
@@ -182,13 +196,38 @@
                         tragen. Dies reicht von der Risikofolgenabschätzung bis hin zur Einrichtung eines Meldeprozesses
                         bei Datenschutzpannen, der eine Reaktion in spätestens 72 Stunden garantiert.
 
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ueber-uns" class="py-5">
+        <h2 class="text-center py-5"> <strong>Über Uns</strong> </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        Die Seventis GmbH ist ein junges und unabhängiges Berliner Unternehmen, das sich einem hohen
+                        Niveau
+                        des Datenschutzes verschrieben hat.
+
+                        Für die Unternehmensgründung haben sich Experten der Rechtswissenschaften und des
+                        Ingenieurswesens
+                        zusammengetan. Denn die berechtigten Bedenken, die viele Menschen im Hinblick auf das immer
+                        weiter
+                        fortschreitende Ausufern der Datennutzung haben, teilen auch wir.
+
+                        Mit dem Antrieb, die eigene Sachexpertise zugunsten eines gleichermaßen effektiven wie
+                        wirtschaftlichen Datenschutzes einzusetzen, stehen wir Ihnen zur Verfügung.
                     </p>
 
                 </div>
-
+                <div class="col">
+                    <img src="./img/about.jpeg" class="w-100" alt="">
+                </div>
             </div>
         </div>
-
 
     </section>
 

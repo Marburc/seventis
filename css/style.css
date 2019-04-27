@@ -16,9 +16,14 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+/* */
 
 .navbar-brand img {
 width: 180px;
+}
+
+.navbar-light .navbar-brand  {
+    margin-bottom: -26px;
 }
 
 
@@ -72,6 +77,7 @@ content: "";
 .cap2 p {
     font-family: 'Permanent Marker', cursive;
     font-size: 5rem;
+    
     /* -webkit-text-stroke: 1px black; */
    color: white;
    text-shadow: 2px 3px 0px rgba(38,20,20,0.3);
@@ -110,6 +116,7 @@ content: "";
    color: white;
    text-shadow: 2px 3px 0px rgba(38,20,20,0.3);
    text-transform: uppercase;
+   letter-spacing: -0.5rem;
    
 }
 .carousel-image-3 {
@@ -134,6 +141,7 @@ content: "";
 #cards {
     margin-top: 100px;
     margin-bottom: 100px;
+   
 }
 .app-card {
     text-align: center;
@@ -143,6 +151,7 @@ content: "";
     flex-direction: column;
     align-content: center;
     width: 20rem;
+   
 
 }
 
@@ -191,6 +200,7 @@ justify-content: center;
   /******************************************** jumbotron */
   #dikl {
       position: relative;
+      line-height: 1.9rem; 
       
   }
   .inner {
@@ -225,4 +235,25 @@ content: "";
   width: 100%;
   background-color: rgba(0, 0, 0, 0.479);
 }
-  
+
+/******************************************* warum-seventis */
+#warum-seventis {
+    line-height: 1.9rem; 
+}
+#warum-seventis h5 {
+
+    color: #115071;
+}
+/* .warum-seventis-cards{
+    border-bottom: 1px solid rgb(189, 189, 189);
+} */
+.gesetze {
+    margin-bottom: 31px;
+
+}
+/***************************************** Über Uns */
+
+#ueber-uns {
+    background-color: rgb(221, 214, 214);
+    line-height: 1.9rem; 
+}
