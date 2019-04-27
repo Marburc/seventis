@@ -209,7 +209,7 @@ justify-content: center;
     color: rgb(255, 255, 255);
   }
   .inner hr {
-     border-color: #ffffff
+     border-color: #fdfdfd
   }
 
 
@@ -244,12 +244,18 @@ content: "";
 
     color: #115071;
 }
-/* .warum-seventis-cards{
+
+#warum-seventis hr{
     border-bottom: 1px solid rgb(189, 189, 189);
-} */
+   
+}
 .gesetze {
     margin-bottom: 31px;
-
+}
+.warum-seventis-cards {
+    -webkit-box-shadow: 4px 14px 38px -13px rgba(0,0,0,0.58);
+    -moz-box-shadow: 4px 14px 38px -13px rgba(0,0,0,0.58);
+    box-shadow: 4px 14px 38px -13px rgba(0,0,0,0.58);
 }
 /***************************************** Über Uns */
 
@@ -257,3 +263,4 @@ content: "";
     background-color: rgb(221, 214, 214);
     line-height: 1.9rem; 
 }
+
