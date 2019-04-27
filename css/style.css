@@ -193,11 +193,17 @@ justify-content: center;
       position: relative;
       
   }
-  #dikl p, h1, .btn, hr {
+  .inner {
     position: relative;
     z-index: 200;
     color: rgb(255, 255, 255);
-}
+  }
+  .inner hr {
+     border-color: #ffffff
+  }
+
+
+
   .jumbotron  {
       background: url(../img/SevTaste_kl._Schlitzpng-1024x198.png);
       padding-top: 100px;
