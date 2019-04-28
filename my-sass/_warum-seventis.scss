@@ -1,0 +1,35 @@
+#warum-seventis {
+    line-height: 1.9rem; 
+}
+#warum-seventis h5 {
+
+    color: #115071;
+}
+
+#warum-seventis hr{
+    border-bottom: 1px solid rgb(189, 189, 189);
+   
+}
+.gesetze {
+    margin-bottom: 31px;
+}
+.warum-seventis-cards {
+    -webkit-box-shadow: 21px 20px 12px -3px rgba(0,0,0,0.11);
+    -moz-box-shadow: 21px 20px 12px -3px rgba(0,0,0,0.11);
+    box-shadow: 21px 20px 12px -3px rgba(0,0,0,0.11);
+}
+.warum-seventis-cards:hover {
+    -webkit-transform: scale(1.1);
+    
+
+    -webkit-box-shadow: 21px 20px 12px -15px rgba(0,0,0,0.11);
+    -moz-box-shadow: 21px 20px 12px -15px rgba(0,0,0,0.11);
+    box-shadow: 21px 20px 12px -15px rgba(0,0,0,0.11);
+    transition: all 0.5s ease-in-out;
+}
+.wv-gesetze {
+    padding-bottom: 85px !important;
+}
+.risiken-minimieren {
+    padding-bottom: 140px !important;
+}
