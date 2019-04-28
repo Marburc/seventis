@@ -52,6 +52,8 @@ width: 180px;
 .carousel-image-1 {
     background: url(../img/header.jpeg);
     background-size: cover;
+   
+   
 }
  
 .carousel-image-1:after 
@@ -122,6 +124,7 @@ content: "";
 .carousel-image-3 {
     background: url(../img/header2.jpeg);
     background-size: cover;
+    background-position: 50% 50%
 }
 .carousel-image-3:after 
 {
