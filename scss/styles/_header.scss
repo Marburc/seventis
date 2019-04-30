@@ -38,9 +38,7 @@
     max-width: 800px;
     top: 440px;
     right: 300px;
-    
-  
-   
+     
 }
 .header__textbox--2 {
     max-width: 800px;  
@@ -84,4 +82,15 @@ content: "";
   height: 100%;
   width: 100%;
   background-color: rgba(90, 90, 90, 0.26);
+}
+
+@media (max-width: 768px){
+
+    .header__textbox--1  {
+        position: relative;
+        max-width: 800px;
+        color: aqua;
+       
+         
+    }
 }

@@ -5,3 +5,7 @@ width: 180px;
 .navbar-light .navbar-brand  {
     margin-bottom: -26px;
 }
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: $color-primary;
+}
