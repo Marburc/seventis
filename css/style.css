@@ -1,3 +1,9 @@
+body {
+  font-family: 'Raleway', sans-serif; }
+
+@font-face {
+  font-family: "Cut The Crap";
+  src: url("../../css/font/cut_the_crap-webfont.woff") format("woff"), url("../../css/font/cut_the_crap-webfont.woff2") format("woff2"); }
 .header__textbox--1, .header__textbox--2, .header__textbox--3 {
   position: absolute;
   font-family: 'Permanent Marker', cursive;
@@ -8,17 +14,39 @@
   line-height: 65px;
   z-index: 1000; }
 
+.header__textbox--1 p:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '"';
+  font-family: 'Cut The Crap', Arial, sans-serif;
+  font-size: 18rem; }
+
+.header__textbox--2 p:before {
+  position: absolute;
+  top: -16px;
+  left: -31px;
+  content: '"';
+  font-family: 'Cut The Crap', Arial, sans-serif;
+  font-size: 18rem; }
+
+.header__textbox--3 p:before {
+  position: absolute;
+  top: -19px;
+  left: -108px;
+  content: '"';
+  font-family: 'Cut The Crap', Arial, sans-serif;
+  font-size: 18rem; }
+
 .header__textbox--1 {
   max-width: 800px;
   top: 440px;
-  right: 300px;
-  margin-left: 40px; }
+  right: 300px; }
 
 .header__textbox--2 {
   max-width: 800px;
   top: 318px;
-  right: 594px;
-  margin-left: 40px; }
+  right: 594px; }
 
 .header__textbox--3 {
   max-width: 800px;
@@ -63,9 +91,6 @@
 .btn-primary:active, .btn-primary.active {
   background: #1e719b;
   box-shadow: none; }
-
-body {
-  font-family: 'Raleway', sans-serif; }
 
 .navbar-brand img {
   width: 180px; }
