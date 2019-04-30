@@ -84,13 +84,39 @@ content: "";
   background-color: rgba(90, 90, 90, 0.26);
 }
 
-@media (max-width: 768px){
+@media (max-width: 1800px){
 
     .header__textbox--1  {
-        position: relative;
-        max-width: 800px;
-        color: aqua;
-       
-         
+        transform: translate(150px );
+  
+    }
+}
+@media (max-width: 1600px){
+
+    .header__textbox--1  {
+        transform: translate(350px,-50px );
+    }
+}
+@media (max-width: 1200px){
+
+    .header__textbox--1  {
+        transform: translate(200px,-50px );
+ 
+    }
+}
+@media (max-width: 500px){
+
+    .header__textbox--1  {
+        transform: translate(300px,-200px );
+        max-width: 500px;
+        font-size: 4rem;
+    }
+}
+@media (max-width: 400px){
+
+    .header__textbox--1  {
+        transform: translate(300px,-200px );
+        max-width: 500px;
+        font-size: 3rem;
     }
 }
