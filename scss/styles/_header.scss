@@ -1,22 +1,24 @@
 .header__textbox--1 ,.header__textbox--2  ,.header__textbox--3  {
     position: absolute;
-    z-index: 100;
     font-family: 'Permanent Marker', cursive;
     font-size: 5rem;
-    color: white;
-    /* -webkit-text-stroke: 1px black; */
-    
+    color: white; 
     text-shadow: 2px 3px 0px rgba(38,20,20,0.3);
     text-transform: uppercase;
     line-height: 65px;
+    z-index: 1000;
 }
+@media (min-width: 576px) {
+    
+ }
 
 .header__textbox--1  {
     max-width: 800px;
-    top: 360px;
-    right: 200px;
+    top: 440px;
+    right: 300px;
     margin-left: 40px;  
-    z-index: 100;
+  
+   
 }
 .header__textbox--2 {
     max-width: 800px;  
@@ -31,22 +33,22 @@
    
 }
 .carousel-item {
-    height: 90vh;
+    height: 100vh;
 }
 .carousel-image-1 {
-    background: url(../img/header.jpg);
-    background-size: cover;
-    background-position: 50% 35%;
-    
+    background: url(../img/header-1920x1080.jpg);
+     background-size: cover;
+    // background-position: 50% 35%;
+   
 }
 .carousel-image-2 {
-    background-image: url(../img/header1.jpeg);
+    background-image: url(../img/header1-1920x1080.jpg);
     background-size: cover;
 }
 .carousel-image-3 {
-    background: url(../img/header2.jpeg);
+    background: url(../img/header2-1920x1080.jpg);
     background-size: cover;
-    background-position: 50% -20%;
+   
 }
 .carousel-image-1:after,
 .carousel-image-2:after,
