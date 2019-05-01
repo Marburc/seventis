@@ -44,3 +44,9 @@ justify-content: center;
       margin-top: 13px;
         
   }
+  @media (max-width: 768px) { 
+
+    .mb-resp {
+      padding-bottom: 20px;
+    }
+   }
