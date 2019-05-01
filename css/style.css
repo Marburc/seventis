@@ -4,75 +4,156 @@ body {
 @font-face {
   font-family: "Cut The Crap";
   src: url("../../css/font/cut_the_crap-webfont.woff") format("woff"), url("../../css/font/cut_the_crap-webfont.woff2") format("woff2"); }
-.header__textbox--1, .header__textbox--2, .header__textbox--3 {
+.carousel-caption-1 {
   position: absolute;
+  bottom: 20px;
+  top: 30%;
+  left: 44%;
+  bottom: auto;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  max-width: 800px;
   font-family: 'Permanent Marker', cursive;
-  font-size: 5rem;
+  font-size: 6rem;
   color: white;
   text-shadow: 2px 3px 0px rgba(38, 20, 20, 0.3);
   text-transform: uppercase;
-  line-height: 65px;
-  z-index: 1000; }
+  line-height: 85px;
+  z-index: 10; }
 
-.header__textbox--1 p:before {
+.carousel-caption-1 p:before {
   position: absolute;
   top: 0;
   left: 0;
+  transform: translate(-40px);
   content: '"';
   font-family: 'Cut The Crap', Arial, sans-serif;
   font-size: 18rem; }
 
-.header__textbox--2 p:before {
+.carousel-caption-2 {
   position: absolute;
-  top: -16px;
-  left: -31px;
-  content: '"';
-  font-family: 'Cut The Crap', Arial, sans-serif;
-  font-size: 18rem; }
+  top: 30%;
+  left: 20%;
+  max-width: 800px;
+  bottom: auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 2px 3px 0px rgba(38, 20, 20, 0.3);
+  text-transform: uppercase;
+  line-height: 85px;
+  z-index: 10; }
 
-.header__textbox--3 p:before {
+.carousel-caption-2 p:before {
   position: absolute;
-  top: -19px;
-  left: -108px;
+  top: 0;
+  left: 0;
+  transform: translate(-120px);
   content: '"';
   font-family: 'Cut The Crap', Arial, sans-serif;
   font-size: 18rem; }
 
-.header__textbox--1 {
+.carousel-caption-3 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
   max-width: 800px;
-  top: 440px;
-  right: 300px; }
+  bottom: auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 2px 3px 0px rgba(38, 20, 20, 0.3);
+  text-transform: uppercase;
+  line-height: 85px;
+  z-index: 10; }
 
-.header__textbox--2 {
-  max-width: 800px;
-  top: 318px;
-  right: 594px; }
+.carousel-caption-3 p:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-120px);
+  content: '"';
+  font-family: 'Cut The Crap', Arial, sans-serif;
+  font-size: 18rem; }
 
-.header__textbox--3 {
-  max-width: 800px;
-  top: 500px;
-  left: 269px; }
+@media (max-width: 1600px) {
+  .carousel-caption-2 {
+    top: 30%;
+    left: 20%;
+    max-width: 800px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5.6rem;
+    line-height: 70px; }
 
-.carousel-item {
-  height: 100vh; }
+  .carousel-caption-3 {
+    left: 5%;
+    font-size: 5rem;
+    line-height: 70px; } }
+@media (max-width: 1200px) {
+  .carousel-caption-1 {
+    line-height: 70px;
+    font-size: 4.5rem; }
 
-.carousel-image-1 {
-  background: url(../img/header-1920x1080.jpg);
-  background-size: cover; }
+  .carousel-caption-1 p:before {
+    transform: translate(0px);
+    font-size: 13rem; }
 
-.carousel-image-2 {
-  background-image: url(../img/header1-1920x1080.jpg);
-  background-size: cover;
-  background-position: right 0; }
+  .carousel-caption-2 {
+    top: 30%;
+    left: 20%;
+    max-width: 600px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5rem;
+    line-height: 70px; }
 
-.carousel-image-3 {
-  background: url(../img/header2-1920x1080.jpg);
-  background-size: cover;
-  background-position: right 0; }
+  .carousel-caption-2 p:before {
+    transform: translate(-88px);
+    font-size: 13rem; }
 
-.carousel-image-1:after,
-.carousel-image-2:after,
-.carousel-image-3:after {
+  .carousel-caption-1 p:before {
+    transform: translate(0px);
+    font-size: 13rem; }
+
+  .carousel-caption-3 {
+    left: 5%;
+    font-size: 4.5rem;
+    line-height: 70px; }
+
+  .carousel-caption-3 p:before {
+    transform: translate(-88px);
+    font-size: 13rem; } }
+@media (max-width: 992px) {
+  .carousel-caption-1 {
+    top: 30%;
+    max-width: 600px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    line-height: 60px; }
+
+  .carousel-caption-2 {
+    top: 30%;
+    left: 10%;
+    max-width: 600px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    line-height: 60px; }
+
+  .carousel-caption-3 {
+    max-width: 600px;
+    left: 5%;
+    font-size: 4rem;
+    line-height: 60px; } }
+@media (max-width: 768px) {
+  .carousel-caption-2 {
+    top: 30%;
+    left: 5%;
+    max-width: 600px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5rem;
+    line-height: 60px; } }
+.carousel-item:after {
   content: "";
   display: block;
   position: absolute;
@@ -80,44 +161,8 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(90, 90, 90, 0.26); }
+  background-color: rgba(0, 0, 0, 0.281); }
 
-@media (max-width: 1800px) {
-  .header__textbox--1 {
-    transform: translate(150px); } }
-@media (max-width: 1600px) {
-  .header__textbox--1 {
-    transform: translate(350px, -50px); } }
-@media (max-width: 1400px) {
-  .header__textbox--1 {
-    transform: translate(150px, -50px);
-    font-size: 4.5rem;
-    max-width: 400px; } }
-@media (max-width: 1200px) {
-  .header__textbox--1 {
-    transform: translate(200px, -50px); } }
-@media (max-width: 992px) {
-  .header__textbox--2 {
-    transform: translate(345px, -50px); } }
-@media (max-width: 500px) {
-  .header__textbox--1 {
-    transform: translate(300px, -200px);
-    max-width: 500px;
-    font-size: 4rem; }
-
-  .header__textbox--2 {
-    transform: translate(500px);
-    font-size: 4rem; } }
-@media (max-width: 400px) {
-  .header__textbox--1 {
-    transform: translate(300px, -200px);
-    max-width: 500px;
-    font-size: 3rem; }
-
-  .header__textbox--2 {
-    transform: translate(550px, -150px);
-    max-width: 500px;
-    font-size: 3rem; } }
 .btn-primary {
   background: #105071;
   color: #fff;
