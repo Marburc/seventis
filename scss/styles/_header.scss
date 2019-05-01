@@ -64,11 +64,12 @@
 .carousel-image-2 {
     background-image: url(../img/header1-1920x1080.jpg);
     background-size: cover;
+ background-position: right 0;
 }
 .carousel-image-3 {
     background: url(../img/header2-1920x1080.jpg);
     background-size: cover;
-   
+    background-position: right 0;
 }
 .carousel-image-1:after,
 .carousel-image-2:after,
@@ -97,10 +98,25 @@ content: "";
         transform: translate(350px,-50px );
     }
 }
+@media (max-width: 1400px){
+
+    .header__textbox--1  {
+        transform: translate(150px,-50px );
+        font-size: 4.5rem;
+        max-width: 400px;
+    }
+}
 @media (max-width: 1200px){
 
     .header__textbox--1  {
         transform: translate(200px,-50px );
+ 
+    }
+}
+@media (max-width: 992px){
+
+    .header__textbox--2  {
+        transform: translate(345px,-50px );
  
     }
 }
@@ -111,6 +127,11 @@ content: "";
         max-width: 500px;
         font-size: 4rem;
     }
+    .header__textbox--2  {
+        transform: translate(500px);
+        font-size: 4rem;
+ 
+    }
 }
 @media (max-width: 400px){
 
@@ -119,4 +140,10 @@ content: "";
         max-width: 500px;
         font-size: 3rem;
     }
+    .header__textbox--2  {
+        transform: translate(550px,-150px );
+        max-width: 500px;
+        font-size: 3rem;
+    }
+    
 }
