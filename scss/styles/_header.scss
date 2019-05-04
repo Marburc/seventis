@@ -164,7 +164,7 @@
     font-family: 'Permanent Marker', cursive;
     font-size: 6rem;
     color: white;
-    text-shadow: 2px 3px 0px rgba(38, 20, 20, 0.3);
+    text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.452);
     text-transform: uppercase;
     line-height: 85px;
     z-index: 10;
@@ -190,7 +190,7 @@
     font-family: 'Permanent Marker', cursive;
     font-size: 6rem;
     color: white; 
-    text-shadow: 2px 3px 0px rgba(38,20,20,0.3);
+    text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.568);
     text-transform: uppercase;
     line-height: 85px;
     z-index: 10;
@@ -216,7 +216,7 @@
     font-family: 'Permanent Marker', cursive;
     font-size: 6rem;
     color: white; 
-    text-shadow: 2px 3px 0px rgba(38,20,20,0.3);
+    text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.452);
     text-transform: uppercase;
     line-height: 85px;
     z-index: 10;
@@ -322,13 +322,13 @@
      } 
  }
 
- .carousel-item:after  {
-  content: "";
-  display: block;
-  position: absolute; 
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.281);
-}
+//  .carousel-item:after  {
+//   content: "";
+//   display: block;
+//   position: absolute; 
+//   bottom: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 100%;
+  
+// }

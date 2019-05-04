@@ -1,5 +1,5 @@
 .navbar-brand img {
-width: 180px;
+    width: 342px;
 }
 
 .navbar-light .navbar-brand  {
@@ -8,4 +8,9 @@ width: 180px;
 
 .navbar-light .navbar-nav .nav-link.active {
     color: $color-primary;
+}
+.navbar-nav {
+ 
+    margin-bottom: -6px;
+   
 }

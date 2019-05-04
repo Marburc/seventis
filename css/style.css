@@ -18,7 +18,7 @@ body {
   font-family: 'Permanent Marker', cursive;
   font-size: 6rem;
   color: white;
-  text-shadow: 2px 3px 0px rgba(38, 20, 20, 0.3);
+  text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.452);
   text-transform: uppercase;
   line-height: 85px;
   z-index: 10; }
@@ -41,7 +41,7 @@ body {
   font-family: 'Permanent Marker', cursive;
   font-size: 6rem;
   color: white;
-  text-shadow: 2px 3px 0px rgba(38, 20, 20, 0.3);
+  text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.568);
   text-transform: uppercase;
   line-height: 85px;
   z-index: 10; }
@@ -64,7 +64,7 @@ body {
   font-family: 'Permanent Marker', cursive;
   font-size: 6rem;
   color: white;
-  text-shadow: 2px 3px 0px rgba(38, 20, 20, 0.3);
+  text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.452);
   text-transform: uppercase;
   line-height: 85px;
   z-index: 10; }
@@ -153,16 +153,6 @@ body {
     font-family: 'Permanent Marker', cursive;
     font-size: 3.5rem;
     line-height: 60px; } }
-.carousel-item:after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.281); }
-
 .btn-primary {
   background: #105071;
   color: #fff;
@@ -176,13 +166,16 @@ body {
   box-shadow: none; }
 
 .navbar-brand img {
-  width: 180px; }
+  width: 342px; }
 
 .navbar-light .navbar-brand {
   margin-bottom: -26px; }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #105071; }
+
+.navbar-nav {
+  margin-bottom: -6px; }
 
 #section-cards {
   margin-top: 100px;
@@ -231,13 +224,16 @@ body {
   .mb-resp {
     padding-bottom: 20px; } }
 .navbar-brand img {
-  width: 180px; }
+  width: 342px; }
 
 .navbar-light .navbar-brand {
   margin-bottom: -26px; }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #105071; }
+
+.navbar-nav {
+  margin-bottom: -6px; }
 
 #angebot {
   position: relative;
