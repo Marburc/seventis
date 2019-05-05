@@ -1,0 +1,15 @@
+{
+  "name": "seventis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Martin Burchardt",
+  "license": "ISC",
+  "homepage": "https://marburc.github.io/seventis/",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
