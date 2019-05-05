@@ -95,14 +95,14 @@
                     </div>
                 </div> -->
         <div class="bd-example">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item ">
+                    <div class="carousel-item active">
                         <img src="/img/header-1920x1080.jpg" class="d-block w-100" alt="...">
 
                         <div class="carousel-caption-1 d-none d-md-block">
@@ -119,7 +119,7 @@
 
                         </div>
                     </div>
-                    <div class="carousel-item  active">
+                    <div class="carousel-item  ">
                         <img src="/img/header2-1920x1080.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption-3 d-none d-md-block">
 
@@ -214,12 +214,12 @@
     </section>
 
     <section id="warum-seventis" class="pb-5">
-        <div class="container text-center">
-            <h2 class="py-3"> <strong>Warum Seventis?</strong></h2>
-            <h3 class="pb-5">Um den Kopf frei zu haben!</h3>
+        <div class="container ">
+            <h2 class="py-3 text-center"> <strong>Warum Seventis?</strong></h2>
+            <h3 class="pb-5 text-center">Um den Kopf frei zu haben!</h3>
             <div class="row ">
 
-                <div class="col-md-6 text-center  test">
+                <div class="col-md-6  test">
                     <div class="warum-seventis-cards p-4">
                         <h5>DATENSCHUTZ IST EIN MUSS — ABER AUCH EIN MEHRWERT</h5>
                         <p>Vor dem Hintergrund der voranschreitenden Digitalisierung kommt dem Datenschutz ein immer
@@ -234,7 +234,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-6 text-center  test">
+                <div class="col-md-6  test">
                     <div class="warum-seventis-cards p-4 wv-gesetze">
                         <h5 class="gesetze">WIRKUNGSVOLLE GESETZE</h5>
                         <p>Dieser besonderen Bedeutung des Datenschutzes hat der europäische Gesetzgeber mittlerweile
@@ -249,7 +249,7 @@
             </div>
             <hr>
             <div class="row pb-5 pt-2">
-                <div class="col-md-6 text-center ">
+                <div class="col-md-6 ">
                     <div class="warum-seventis-cards p-4 risiken-minimieren">
                         <h5 class="py-2">RISIKEN MINIMIEREN</h5>
                         <p>Den gesetzlichen Anforderungen nachzukommen, ist aber nicht nur im Hinblick auf den drohenden
@@ -261,7 +261,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-6 text-center ">
+                <div class="col-md-6 ">
                     <div class="warum-seventis-cards p-4">
                         <h5 class="py-2 ">DIE RELEVANTESTEN PRINZIPIEN</h5>
                         <p>Die relevantesten Prinzipien des neuen Datenschutzrechts sind die konsequente Zweckbindung
@@ -284,10 +284,11 @@
         </div>
     </section>
     <section id="ueber-uns" class="py-5">
-        <h2 class="text-center py-5"> <strong>Über Uns</strong> </h2>
+        <h2 class="text-center py-3"> <strong>Über Uns</strong> </h2>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row justify-content-center">
+                <div class="col">
+
                     <p>
                         Die Seventis GmbH ist ein junges und unabhängiges Berliner Unternehmen, das sich einem hohen
                         Niveau
@@ -302,16 +303,16 @@
                         Mit dem Antrieb, die eigene Sachexpertise zugunsten eines gleichermaßen effektiven wie
                         wirtschaftlichen Datenschutzes einzusetzen, stehen wir Ihnen zur Verfügung.
                     </p>
+                </div>
 
-                </div>
-                <div class="col-md-6">
-                    <img src="./img/about.jpeg" class="w-100" alt="">
-                </div>
+
             </div>
+
+        </div>
         </div>
     </section>
 
-    <footer class="pt-4 text-muted text-center text-small footer">
+    <footer class=" pt-4 text-muted text-center text-small footer">
         <p>Copyright &copy; <span id="year"></span> </p>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="impressum.html">Impressum</a></li>
@@ -382,6 +383,21 @@
                 });
             }
         })
+        // URL
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
     </script>
 </body>
 

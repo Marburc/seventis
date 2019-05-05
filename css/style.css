@@ -1,5 +1,6 @@
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  padding-top: 140px; }
 
 @font-face {
   font-family: "Cut The Crap";
@@ -298,19 +299,13 @@ body {
   padding-bottom: 140px !important; }
 
 #ueber-uns {
-  background-color: #80b1cf;
+  background-color: #bccbd3;
   line-height: 1.9rem; }
 
 #datenschutz {
   margin-top: 120px; }
 
 #impressum {
-  margin-top: 120px; }
-
-#datenschutzbeauftragter {
-  margin-top: 120px; }
-
-#datenschutz-fuer-aerzte {
   margin-top: 120px; }
 
 .footer {
