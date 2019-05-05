@@ -1,0 +1,325 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 140px; }
+
+@font-face {
+  font-family: "Cut The Crap";
+  src: url("../../css/font/cut_the_crap-webfont.woff") format("woff"), url("../../css/font/cut_the_crap-webfont.woff2") format("woff2"); }
+.carousel-caption-1 {
+  position: absolute;
+  bottom: 20px;
+  top: 30%;
+  left: 44%;
+  bottom: auto;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  max-width: 800px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.452);
+  text-transform: uppercase;
+  line-height: 85px;
+  z-index: 10; }
+
+.carousel-caption-1 p:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-40px);
+  content: '"';
+  font-family: 'Cut The Crap', Arial, sans-serif;
+  font-size: 18rem; }
+
+.carousel-caption-2 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  max-width: 800px;
+  bottom: auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.568);
+  text-transform: uppercase;
+  line-height: 85px;
+  z-index: 10; }
+
+.carousel-caption-2 p:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-120px);
+  content: '"';
+  font-family: 'Cut The Crap', Arial, sans-serif;
+  font-size: 18rem; }
+
+.carousel-caption-3 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  max-width: 800px;
+  bottom: auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.452);
+  text-transform: uppercase;
+  line-height: 85px;
+  z-index: 10; }
+
+.carousel-caption-3 p:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-120px);
+  content: '"';
+  font-family: 'Cut The Crap', Arial, sans-serif;
+  font-size: 18rem; }
+
+@media (max-width: 1600px) {
+  .carousel-caption-2 {
+    top: 30%;
+    left: 20%;
+    max-width: 800px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5.6rem;
+    line-height: 70px; }
+
+  .carousel-caption-3 {
+    left: 5%;
+    font-size: 5rem;
+    line-height: 70px; } }
+@media (max-width: 1200px) {
+  .carousel-caption-1 {
+    line-height: 70px;
+    font-size: 4.5rem; }
+
+  .carousel-caption-1 p:before {
+    transform: translate(0px);
+    font-size: 13rem; }
+
+  .carousel-caption-2 {
+    top: 30%;
+    left: 20%;
+    max-width: 600px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5rem;
+    line-height: 70px; }
+
+  .carousel-caption-2 p:before {
+    transform: translate(-88px);
+    font-size: 13rem; }
+
+  .carousel-caption-1 p:before {
+    transform: translate(0px);
+    font-size: 13rem; }
+
+  .carousel-caption-3 {
+    left: 5%;
+    font-size: 4.5rem;
+    line-height: 70px; }
+
+  .carousel-caption-3 p:before {
+    transform: translate(-88px);
+    font-size: 13rem; } }
+@media (max-width: 992px) {
+  .carousel-caption-1 {
+    top: 30%;
+    max-width: 600px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    line-height: 60px; }
+
+  .carousel-caption-2 {
+    top: 30%;
+    left: 10%;
+    max-width: 600px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    line-height: 60px; }
+
+  .carousel-caption-3 {
+    max-width: 600px;
+    left: 5%;
+    font-size: 4rem;
+    line-height: 60px; } }
+@media (max-width: 768px) {
+  .carousel-caption-2 {
+    top: 30%;
+    left: 5%;
+    max-width: 600px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5rem;
+    line-height: 60px; } }
+.btn-primary {
+  background: #105071;
+  color: #fff;
+  border: none; }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background: #1e719b; }
+
+.btn-primary:active, .btn-primary.active {
+  background: #1e719b;
+  box-shadow: none; }
+
+.navbar-brand img {
+  width: 342px; }
+
+.navbar-light .navbar-brand {
+  margin-bottom: -26px; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #105071; }
+
+.navbar-nav {
+  margin-bottom: -6px; }
+
+#section-cards {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+#hexagon {
+  width: 100px;
+  height: 55px;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #105071;
+  display: flex;
+  justify-content: center; }
+
+#hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #105071; }
+
+#hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #105071; }
+
+.fas {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 13px; }
+
+@media (max-width: 768px) {
+  .mb-resp {
+    padding-bottom: 20px; } }
+.navbar-brand img {
+  width: 342px; }
+
+.navbar-light .navbar-brand {
+  margin-bottom: -26px; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #105071; }
+
+.navbar-nav {
+  margin-bottom: -6px; }
+
+#angebot {
+  position: relative;
+  line-height: 1.9rem;
+  margin-bottom: -65px; }
+
+.inner {
+  position: relative;
+  z-index: 200;
+  color: white; }
+
+.inner hr {
+  border-color: #fdfdfd; }
+
+.jumbotron {
+  background: url(../img/SevTaste_kl._Schlitzpng-1024x198.png);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 3px 0px rgba(38, 20, 20, 0.205); }
+
+.overlay {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.479); }
+
+#warum-seventis {
+  line-height: 1.9rem;
+  padding-top: 90px; }
+
+#warum-seventis h5 {
+  color: #105071; }
+
+#warum-seventis hr {
+  border-bottom: 1px solid #bdbdbd; }
+
+.gesetze {
+  margin-bottom: 31px; }
+
+.warum-seventis-cards {
+  -webkit-box-shadow: 21px 20px 12px -3px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 21px 20px 12px -3px rgba(0, 0, 0, 0.11);
+  box-shadow: 21px 20px 12px -3px rgba(0, 0, 0, 0.11); }
+
+.warum-seventis-cards:hover {
+  -webkit-transform: scale(1.1);
+  -webkit-box-shadow: 21px 20px 12px -15px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 21px 20px 12px -15px rgba(0, 0, 0, 0.11);
+  box-shadow: 21px 20px 12px -15px rgba(0, 0, 0, 0.11);
+  transition: all 0.5s ease-in-out; }
+
+.wv-gesetze {
+  padding-bottom: 85px !important; }
+
+.risiken-minimieren {
+  padding-bottom: 140px !important; }
+
+#ueber-uns {
+  background-color: #bccbd3;
+  line-height: 1.9rem; }
+
+#datenschutz {
+  margin-top: 120px; }
+
+#impressum {
+  margin-top: 120px; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px; }
+
+/*# sourceMappingURL=style.css.map */
