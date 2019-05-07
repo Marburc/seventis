@@ -4,7 +4,7 @@ body {
 
 @font-face {
   font-family: "Cut The Crap";
-  src: url("../../css/font/cut_the_crap-webfont.woff") format("woff"), url("../../css/font/cut_the_crap-webfont.woff2") format("woff2"); }
+  src: url("../../dist/css/font/cut_the_crap-webfont.woff") format("woff"), url("../../dist/css/font/cut_the_crap-webfont.woff2") format("woff2"); }
 .carousel-caption-1 {
   position: absolute;
   bottom: 20px;
