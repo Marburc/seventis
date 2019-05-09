@@ -11,14 +11,22 @@
     color: $color-primary;
 }
 .navbar-nav {
- 
-    margin-bottom: -6px;
-   
+    margin-bottom: -6px; 
 }
 
 @media (max-width: 767.98px) {
     .navbar-brand img {
         max-width: 70%;
         
+    }
+ }
+ @media (max-width: 575.98px) {
+    .navbar-brand img {
+        max-width: 50%;
+        
+    }
+    .navbar-light .navbar-brand {
+        margin-bottom: -22px;
+        max-width: 76%;
     }
  }
