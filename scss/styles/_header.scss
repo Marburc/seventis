@@ -87,7 +87,7 @@
 
 @media(max-width: 1600px){
     .carousel-caption-2 {
-        top: 30%;
+        top: 40%;
         left: 20%;
         max-width: 800px;
         font-family: 'Permanent Marker', cursive;
@@ -117,7 +117,7 @@
   } 
     
     .carousel-caption-2 {
-        top: 30%;
+        top: 42%;
         left: 20%;
         max-width: 600px;
         font-family: 'Permanent Marker', cursive;
@@ -152,13 +152,14 @@
      
   }  
      .carousel-caption-2 {
-        top: 30%;
-        left: 10%;
+      top: 50%;
+      left: 25%;
         max-width: 600px;
         font-family: 'Permanent Marker', cursive;
         font-size: 4rem;
         line-height: 60px;
      }
+   
      .carousel-caption-3 {
         max-width: 600px;
         left: 5%;
@@ -174,11 +175,10 @@
       
    }  
     .carousel-caption-2 {
-        top: 17%;
-        left: 5%;
+      top: 41%;
+      left: 22%;
         max-width: 600px;
         font-family: 'Permanent Marker', cursive;
-        
         line-height: 60px;  
      } 
  }
@@ -189,6 +189,19 @@
       transform: translate(-33px);
      
   }  
+  .carousel-caption-2 {
+   top: 41%;
+   left: 22%;
+     max-width: 600px;
+     font-family: 'Permanent Marker', cursive;
+     font-size: 2rem;
+     line-height: 36px; 
+  } 
+  .carousel-caption-2 p:before    {
+   font-size: 8rem;
+   top: -6%;
+   left: 12%;
+} 
  }
 
  .carousel-item:after  {
