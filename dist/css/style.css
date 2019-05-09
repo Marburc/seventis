@@ -127,7 +127,7 @@ body {
   .carousel-caption-1 {
     top: 40%;
     max-width: 600px;
-    line-height: 60px; }
+    line-height: 45px; }
 
   .carousel-caption-1 p:before {
     transform: translate(-56px);
@@ -158,6 +158,11 @@ body {
     font-family: 'Permanent Marker', cursive;
     line-height: 60px; } }
 @media (max-width: 575.98px) {
+  .carousel-caption-1 {
+    top: 28%;
+    line-height: 20px;
+    font-size: 1.6rem; }
+
   .carousel-caption-1 p:before {
     top: 10%;
     transform: translate(-33px); }
