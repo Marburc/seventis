@@ -384,11 +384,23 @@ body {
   line-height: 1.9rem; }
 
 #datenschutz {
-  margin-top: 120px; }
+  padding-top: 100px; }
 
+@media (max-width: 575.98px) {
+  #datenschutz h1 {
+    font-size: 1.8rem; }
+
+  #datenschutz {
+    padding-top: 80px; } }
 #impressum {
-  margin-top: 120px; }
+  padding-top: 100px; }
 
+@media (max-width: 575.98px) {
+  #impressum h1 {
+    font-size: 1.8rem; }
+
+  #impressum {
+    padding-top: 0px; } }
 .footer {
   position: absolute;
   bottom: 0;
