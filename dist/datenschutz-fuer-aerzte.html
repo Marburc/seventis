@@ -1,7 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="/img/Logo.png" href="/img/favicon.ico" style="width: 16px" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -16,47 +20,47 @@
     <title>Seventis</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
 
     <!-- START HERE -->
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="main-nav">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="./img/Logo.png" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="./img/Logo-S-klein.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto smooth-scroll">
+                <ul class="navbar-nav ml-auto ">
                     <li class="nav-item  ">
                         <a class="nav-link" href="index.html">Home </a>
                     </li>
-                    <!-- <li class="nav-item ">
-                            <a class="nav-link" href="#datenschutz-ist-kein-luxus">Datenschutz ist kein Luxus</a>
-                        </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#angebot">Angebot</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#warum-seventis">Warum Seventis</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#angebot">Angebot</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#ueber-uns">Über uns</a>
                     </li>
 
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="datenschutzbeauftragter.html">Datenschutzbeauftragter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#datenschutz-fuer-aerzte">Datenschutz für Ärzte</a>
+                        <a class="nav-link" href="datenschutz-fuer-aerzte.html">Datenschutz für Ärzte</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section id="datenschutz-fuer-aerzte " class="py-5">
+    <section class="datenschutz-fuer-aerzte " class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -100,6 +104,7 @@
             </div>
         </div>
     </section>
+
     <footer class="pt-4 text-muted text-center text-small footer">
         <hr>
         <p>Copyright &copy; <span id="year"></span> </p>
@@ -108,4 +113,27 @@
             <li class="list-inline-item"><a href="datenschutz.html">Datenschutzerklärung</a></li>
         </ul>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+        // INit Scrollspy
+        $('body').scrollspy({ target: '#main-nav' });
+
+
+
+    </script>
 </body>
+
+</html>

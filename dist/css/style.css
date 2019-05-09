@@ -412,5 +412,14 @@ body {
 
   #datenschutzbeauftragter {
     padding-top: 0px; } }
+.datenschutz-fuer-aerzte {
+  padding-top: 100px; }
+
+@media (max-width: 575.98px) {
+  .datenschutz-fuer-aerzte h1 {
+    font-size: 1.8rem; }
+
+  .datenschutz-fuer-aerzte {
+    padding-top: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
