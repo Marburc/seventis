@@ -281,6 +281,10 @@ body {
 @media (max-width: 768px) {
   .mb-resp {
     padding-bottom: 20px; } }
+@media (max-width: 575.98px) {
+  #section-cards {
+    margin-top: 28px;
+    margin-bottom: 28px; } }
 .navbar-brand img {
   width: 100%;
   height: auto; }
@@ -380,11 +384,23 @@ body {
   line-height: 1.9rem; }
 
 #datenschutz {
-  margin-top: 120px; }
+  padding-top: 100px; }
 
+@media (max-width: 575.98px) {
+  #datenschutz h1 {
+    font-size: 1.8rem; }
+
+  #datenschutz {
+    padding-top: 80px; } }
 #impressum {
-  margin-top: 120px; }
+  padding-top: 100px; }
 
+@media (max-width: 575.98px) {
+  #impressum h1 {
+    font-size: 1.8rem; }
+
+  #impressum {
+    padding-top: 0px; } }
 .footer {
   position: absolute;
   bottom: 0;
@@ -398,5 +414,24 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 80px; }
+
+#datenschutzbeauftragter {
+  padding-top: 50px; }
+
+@media (max-width: 575.98px) {
+  .datenschutzbeauftragter-title {
+    font-size: 1.8rem; }
+
+  #datenschutzbeauftragter {
+    padding-top: 0px; } }
+.datenschutz-fuer-aerzte {
+  padding-top: 100px; }
+
+@media (max-width: 575.98px) {
+  .datenschutz-fuer-aerzte h1 {
+    font-size: 1.8rem; }
+
+  .datenschutz-fuer-aerzte {
+    padding-top: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
