@@ -281,6 +281,10 @@ body {
 @media (max-width: 768px) {
   .mb-resp {
     padding-bottom: 20px; } }
+@media (max-width: 575.98px) {
+  #section-cards {
+    margin-top: 28px;
+    margin-bottom: 28px; } }
 .navbar-brand img {
   width: 100%;
   height: auto; }
