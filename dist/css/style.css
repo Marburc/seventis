@@ -167,7 +167,8 @@ body {
   box-shadow: none; }
 
 .navbar-brand img {
-  width: 342px; }
+  width: 100%;
+  height: auto; }
 
 .navbar-light .navbar-brand {
   margin-bottom: -26px; }
@@ -178,6 +179,9 @@ body {
 .navbar-nav {
   margin-bottom: -6px; }
 
+@media (max-width: 767.98px) {
+  .navbar-brand img {
+    max-width: 70%; } }
 #section-cards {
   margin-top: 100px;
   margin-bottom: 100px; }
@@ -225,7 +229,8 @@ body {
   .mb-resp {
     padding-bottom: 20px; } }
 .navbar-brand img {
-  width: 342px; }
+  width: 100%;
+  height: auto; }
 
 .navbar-light .navbar-brand {
   margin-bottom: -26px; }
@@ -236,6 +241,9 @@ body {
 .navbar-nav {
   margin-bottom: -6px; }
 
+@media (max-width: 767.98px) {
+  .navbar-brand img {
+    max-width: 70%; } }
 #angebot {
   position: relative;
   line-height: 1.9rem;
