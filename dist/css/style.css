@@ -233,7 +233,7 @@ body {
   color: #105071; }
 
 .navbar-nav {
-  margin-bottom: -6px; }
+  margin-bottom: -12px; }
 
 @media (max-width: 767.98px) {
   .navbar-brand img {
@@ -306,7 +306,7 @@ body {
   color: #105071; }
 
 .navbar-nav {
-  margin-bottom: -6px; }
+  margin-bottom: -12px; }
 
 @media (max-width: 767.98px) {
   .navbar-brand img {
@@ -392,7 +392,7 @@ body {
 #ueber-uns {
   background-color: #105071;
   line-height: 1.9rem;
-  padding-top: 75px; }
+  padding-top: 100px; }
 
 #ueber-uns p, h2 {
   color: white; }
