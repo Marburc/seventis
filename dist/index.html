@@ -50,6 +50,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#ueber-uns">Über uns</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt">Kontakt</a>
+                    </li>
 
                     </li>
                     <li class="nav-item">
@@ -251,7 +254,7 @@
             </div>
         </div>
     </section>
-    <section id="ueber-uns" class="py-5">
+    <section id="ueber-uns">
         <h2 class="text-center py-3"> <strong>Über Uns</strong> </h2>
         <div class="container">
             <div class="row justify-content-center">
@@ -278,7 +281,42 @@
 
         </div>
         </div>
+        <hr class="hr-contact">
     </section>
+    <!-- Contact -->
+    <div id="kontakt">
+        <div class="container contact-form">
+            <div class="contact-image">
+                <img src="./img/Logo-S-White-BG.png" alt="rocket_contact" />
+            </div>
+            <form method="post">
+                <h3>Sprechen Sie uns an!</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Name*" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Telefonnummer *"
+                                value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btn btn-primary" value="Nachricht senden" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Ihre Nachricht *"
+                                style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
     <footer class=" pt-4 text-muted text-center text-small footer">
         <p>Copyright &copy; <span id="year"></span> </p>
@@ -321,7 +359,6 @@
             </div>
         </div>
     </div>
-
 
 
 </body>
