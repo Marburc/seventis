@@ -17,7 +17,7 @@ body {
   text-align: center;
   max-width: 800px;
   font-family: 'Permanent Marker', cursive;
-  font-size: 5vw;
+  font-size: 6rem;
   color: white;
   text-shadow: 3px 1px 16px rgba(0, 0, 0, 0.452);
   text-transform: uppercase;
@@ -97,7 +97,9 @@ body {
     transform: translate(-100px); } }
 @media (max-width: 1200px) {
   .carousel-caption-1 {
-    line-height: 65px; }
+    line-height: 70px;
+    top: 26%;
+    font-size: 4.5rem; }
 
   .carousel-caption-1 p:before {
     transform: translate(-75px);
@@ -126,9 +128,10 @@ body {
     font-size: 13rem; } }
 @media (max-width: 992px) {
   .carousel-caption-1 {
-    top: 40%;
+    top: 30%;
     max-width: 600px;
-    line-height: 45px; }
+    font-size: 4rem;
+    line-height: 60px; }
 
   .carousel-caption-1 p:before {
     transform: translate(-56px);
@@ -149,13 +152,14 @@ body {
     line-height: 60px; } }
 @media (max-width: 768px) {
   .carousel-caption-1 {
-    top: 36%;
-    line-height: 30px; }
+    top: 20%;
+    line-height: 48px;
+    font-size: 3.5rem; }
 
   .carousel-caption-2 {
     top: 31%;
     left: 22%;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     max-width: 600px;
     line-height: 60px; }
 
