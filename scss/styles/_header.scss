@@ -27,7 +27,7 @@
     transform: translate(-140px);
     content: '"';
     font-family: 'Cut The Crap', Arial, sans-serif;
-    font-size: 18vw;
+    font-size: 18rem;
 }
 
 // *************************  caption 2
@@ -116,6 +116,7 @@
      .carousel-caption-1 p:before    {
       transform: translate(-75px);
       top: 3%;
+      font-size: 13rem; 
      
   } 
     
@@ -154,6 +155,7 @@
      .carousel-caption-1 p:before    {
       transform: translate(-56px);
       top: 2%;
+      transform: translate(-70px)
      
   }  
      .carousel-caption-2 {
@@ -205,6 +207,7 @@
    .carousel-caption-1 p:before    {
       top: 10%;
       transform: translate(-33px);
+      font-size: 6rem;
      
   }  
   .carousel-caption-2 {
