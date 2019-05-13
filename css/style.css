@@ -31,7 +31,7 @@ body {
   transform: translate(-140px);
   content: '"';
   font-family: 'Cut The Crap', Arial, sans-serif;
-  font-size: 18vw; }
+  font-size: 18rem; }
 
 .carousel-caption-2 {
   position: absolute;
@@ -103,7 +103,8 @@ body {
 
   .carousel-caption-1 p:before {
     transform: translate(-75px);
-    top: 3%; }
+    top: 3%;
+    font-size: 13rem; }
 
   .carousel-caption-2 {
     top: 42%;
@@ -135,7 +136,8 @@ body {
 
   .carousel-caption-1 p:before {
     transform: translate(-56px);
-    top: 2%; }
+    top: 2%;
+    transform: translate(-70px); }
 
   .carousel-caption-2 {
     top: 50%;
@@ -176,7 +178,8 @@ body {
 
   .carousel-caption-1 p:before {
     top: 10%;
-    transform: translate(-33px); }
+    transform: translate(-33px);
+    font-size: 6rem; }
 
   .carousel-caption-2 {
     top: 41%;
@@ -233,7 +236,7 @@ body {
   color: #105071; }
 
 .navbar-nav {
-  margin-bottom: -6px; }
+  margin-bottom: -12px; }
 
 @media (max-width: 767.98px) {
   .navbar-brand img {
@@ -306,7 +309,7 @@ body {
   color: #105071; }
 
 .navbar-nav {
-  margin-bottom: -6px; }
+  margin-bottom: -12px; }
 
 @media (max-width: 767.98px) {
   .navbar-brand img {
@@ -392,7 +395,7 @@ body {
 #ueber-uns {
   background-color: #105071;
   line-height: 1.9rem;
-  padding-top: 75px; }
+  padding-top: 100px; }
 
 #ueber-uns p, h2 {
   color: white; }
