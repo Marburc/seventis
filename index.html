@@ -161,7 +161,7 @@
         </div>
     </section>
     <section id="angebot">
-        <div class="jumbotron jt  text-center ">
+        <div id="parallax" class="jumbotron  jt  text-center ">
             <div class="inner">
                 <h1 class="display-4">Datenschutz ist kein Luxus</h1>
                 <p class="lead">Effektiver Datenschutz ist heute kein Extra mehr, das man sich entweder leistet oder
@@ -365,6 +365,13 @@
 </body>
 
 <script>
+    // let parallax = document.getElementById("parallax")
+    // window.addEventListener("scroll", function () {
+    //     let offset = window.pageYOffset;
+
+    //     parallax.style.backgroundPositionY = offset * 0.7 + "px";
+    // })
+
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
 
